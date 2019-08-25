@@ -1,0 +1,85 @@
+Questions:
+--------------------------------------
+
+1.Consider an array like the below one
+(Ubuntu Fedora Suse Linuxmint)
+and find the index of the element Fedora
+
+2.What is the syntax used to cut copy paste in vim editor?
+
+3.Search a character from a string
+e.g.Input string ‘hello world’
+Find the position of the character ‘r’
+
+4.Write a shell script for comparing the contents of two files
+
+5.Write a Shell script for getting word count of a file. If file is not exist in the path, then
+the script has to exit and return the error code.
+
+6.Write a shell script for finding the cubic value of a given number
+
+Answers:
+---------------------------------------------
+
+1. 
+a) 
+#!/bin/bash
+arr=(Ubuntu Fedora Suse Linuxmint)
+value="Fedora"
+for i in "${!arr[@]}" 
+do
+   if [[ "${arr[$i]}" = "${value}" ]] 
+   then
+       echo "${i}";
+   fi
+done
+
+b)
+#!/bin/bash
+declare -A arr
+arr=([Ubuntu]=1 [Fedora]=2 [Suse]=3 [Linuxmint]=4)
+echo ${arr['Fedora]}
+
+2.
+
+Copy a Line:
+
+yy: The yy command copies the current line in the file.
+
+Pasting a line:
+
+The P and p are used to paste lines before and after the current line.
+
+p: Pastes the line after the current line.
+P: Pastes the copied line before the current line.
+
+Cut a line:
+dd: Deletes the current line.
+
+3.
+#!/bin/bash
+s="hello world";
+if [ `echo $s | grep -c "r" ` -gt 0 ]
+then
+  echo "Found"
+else
+  echo "Not found";
+fi
+
+4.
+#!/bin/bash
+f1="./example01.sh"
+f2="./example02.sh"
+if cmp -s f1 f2
+then
+   echo "The files are same"
+else
+   echo "The files are different"
+fi
+
+5.
+
+
+
+
+
