@@ -78,6 +78,26 @@ else
 fi
 
 5.
+#!/bin/bash
+file="./example01.sh"
+if [ -f "$file" ]
+then
+	wordCount=wc -w $file
+   echo "Word count = $wordCount"
+else
+	echo "$file not found."
+   exit
+fi
+
+
+6.
+#!/bin/bash
+echo "Enter number"
+read num
+cube=`expr "$num" \* "$num" \* "$num" `
+echo "Cube of given number = $cube"
+
+
 
 
 
