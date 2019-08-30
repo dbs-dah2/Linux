@@ -1,0 +1,34 @@
+awk -F: 'OFS=" "{if($3 > 100) print $0}' /etc/passwd | sed 's/'^[a-z]*'/localuser/g' 
+
+
+Customerdata.txt
+
+Customer Name      Id       Deposit Amount       Contact number      
+Raghul              15634           200000                  6757588
+Rajeev               25735           46889                    2342422
+Sulochana         23764          345000                   4567880
+Sangeetha       21409            10500                      655776
+Abdul              13425               4500                    223432
+Ramesh          18904                6000                   234446
+Sanjana          19745               83456                  134444
+Gokul             13452              3567                      133232
+
+Ravi               13678              676889                    1244451
+
+
+
+Write a shell script for 
+i)inserting a new customer, 
+ii)for deleting a customer, 
+iii)for modyfying any field of a customer.(Let primary key be Id) 
+iv) print the customer those who have deposit more than 50000
+
+
+Output of each operation should be reflected to the source file
+
+Use function concept, sed ,awk
+
+
+echo '$0' |sed 's/.*:/localuser/g' /etc/passwd
+
+awk -F: 'OFS=" "{if($3 > 100) print $0}' /etc/passwd | sed 's/'^*:'/localuser/g'
