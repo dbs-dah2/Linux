@@ -1,0 +1,13 @@
+$ awk '/Rajiv/
+> /Raghu/' input.txt
+
+$awk '{print $2,$5;}' input.txt
+$awk '{print $2,$NF;}' input.txt
+	o/p :
+	Suraj $5,000
+	Anil $5,500
+	Rajiv $7,000
+	Pooja $9,500
+	Rajesh $6,000
+$
+
