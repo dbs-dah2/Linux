@@ -1,0 +1,287 @@
+~$ sudo apt-get install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules
+[sudo] password for user:
+Sorry, try again.
+[sudo] password for user:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  guile-2.0-libs libgc1c2 libgsasl7 libkyotocabinet16v5 libltdl7 libmailutils4 libmysqlclient20 libntlm0 libpython2.7 libpython2.7-minimal libpython2.7-stdlib
+  libsasl2-modules-db libunistring0 mailutils-common mysql-common ssl-cert
+Suggested packages:
+  libsasl2-modules-otp libsasl2-modules-ldap libsasl2-modules-sql libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal mailutils-mh mailutils-doc procmail
+  postfix-mysql postfix-pgsql postfix-ldap postfix-pcre sasl2-bin dovecot-common postfix-cdb postfix-doc openssl-blacklist
+The following NEW packages will be installed:
+  guile-2.0-libs libgc1c2 libgsasl7 libkyotocabinet16v5 libltdl7 libmailutils4 libmysqlclient20 libntlm0 libpython2.7 libpython2.7-minimal libpython2.7-stdlib
+  libunistring0 mailutils mailutils-common mysql-common postfix ssl-cert
+The following packages will be upgraded:
+  ca-certificates libsasl2-2 libsasl2-modules libsasl2-modules-db
+4 upgraded, 17 newly installed, 0 to remove and 222 not upgraded.
+Need to get 9,484 kB of archives.
+After this operation, 43.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libntlm0 amd64 1.4-7 [14.3 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 libunistring0 amd64 0.9.3-5.2ubuntu1 [279 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 ca-certificates all 20170717~16.04.2 [167 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsasl2-modules-db amd64 2.1.26.dfsg1-14ubuntu0.1 [14.5 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsasl2-2 amd64 2.1.26.dfsg1-14ubuntu0.1 [48.6 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsasl2-modules amd64 2.1.26.dfsg1-14ubuntu0.1 [47.5 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgc1c2 amd64 1:7.4.2-7.3ubuntu0.1 [82.1 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial/main amd64 libltdl7 amd64 2.4.6-0.1 [38.3 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 guile-2.0-libs amd64 2.0.11+1-10ubuntu0.1 [2,237 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libgsasl7 amd64 1.8.0-8ubuntu2 [118 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libkyotocabinet16v5 amd64 1.2.76-4.1 [295 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/universe amd64 mailutils-common all 1:2.99.99-1ubuntu2 [257 kB]
+Get:13 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-common all 5.7.27-0ubuntu0.16.04.1 [14.7 kB]
+Get:14 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libmysqlclient20 amd64 5.7.27-0ubuntu0.16.04.1 [811 kB]
+Get:15 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython2.7-minimal amd64 2.7.12-1ubuntu0~16.04.4 [339 kB]
+Get:16 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython2.7-stdlib amd64 2.7.12-1ubuntu0~16.04.4 [1,880 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython2.7 amd64 2.7.12-1ubuntu0~16.04.4 [1,071 kB]
+Get:18 http://archive.ubuntu.com/ubuntu xenial/universe amd64 libmailutils4 amd64 1:2.99.99-1ubuntu2 [439 kB]
+Get:19 http://archive.ubuntu.com/ubuntu xenial/main amd64 ssl-cert all 1.0.37 [16.9 kB]
+Get:20 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 postfix amd64 3.1.0-3ubuntu0.3 [1,152 kB]
+Get:21 http://archive.ubuntu.com/ubuntu xenial/universe amd64 mailutils amd64 1:2.99.99-1ubuntu2 [162 kB]
+Fetched 9,484 kB in 19s (492 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package libntlm0:amd64.
+(Reading database ... 25474 files and directories currently installed.)
+Preparing to unpack .../libntlm0_1.4-7_amd64.deb ...
+Unpacking libntlm0:amd64 (1.4-7) ...
+Selecting previously unselected package libunistring0:amd64.
+Preparing to unpack .../libunistring0_0.9.3-5.2ubuntu1_amd64.deb ...
+Unpacking libunistring0:amd64 (0.9.3-5.2ubuntu1) ...
+Preparing to unpack .../ca-certificates_20170717~16.04.2_all.deb ...
+Unpacking ca-certificates (20170717~16.04.2) over (20160104ubuntu1) ...
+Preparing to unpack .../libsasl2-modules-db_2.1.26.dfsg1-14ubuntu0.1_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.26.dfsg1-14ubuntu0.1) over (2.1.26.dfsg1-14build1) ...
+Preparing to unpack .../libsasl2-2_2.1.26.dfsg1-14ubuntu0.1_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.26.dfsg1-14ubuntu0.1) over (2.1.26.dfsg1-14build1) ...
+Preparing to unpack .../libsasl2-modules_2.1.26.dfsg1-14ubuntu0.1_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.26.dfsg1-14ubuntu0.1) over (2.1.26.dfsg1-14build1) ...
+Selecting previously unselected package libgc1c2:amd64.
+Preparing to unpack .../libgc1c2_1%3a7.4.2-7.3ubuntu0.1_amd64.deb ...
+Unpacking libgc1c2:amd64 (1:7.4.2-7.3ubuntu0.1) ...
+Selecting previously unselected package libltdl7:amd64.
+Preparing to unpack .../libltdl7_2.4.6-0.1_amd64.deb ...
+Unpacking libltdl7:amd64 (2.4.6-0.1) ...
+Selecting previously unselected package guile-2.0-libs:amd64.
+Preparing to unpack .../guile-2.0-libs_2.0.11+1-10ubuntu0.1_amd64.deb ...
+Unpacking guile-2.0-libs:amd64 (2.0.11+1-10ubuntu0.1) ...
+Selecting previously unselected package libgsasl7.
+Preparing to unpack .../libgsasl7_1.8.0-8ubuntu2_amd64.deb ...
+Unpacking libgsasl7 (1.8.0-8ubuntu2) ...
+Selecting previously unselected package libkyotocabinet16v5:amd64.
+Preparing to unpack .../libkyotocabinet16v5_1.2.76-4.1_amd64.deb ...
+Unpacking libkyotocabinet16v5:amd64 (1.2.76-4.1) ...
+Selecting previously unselected package mailutils-common.
+Preparing to unpack .../mailutils-common_1%3a2.99.99-1ubuntu2_all.deb ...
+Unpacking mailutils-common (1:2.99.99-1ubuntu2) ...
+Selecting previously unselected package mysql-common.
+Preparing to unpack .../mysql-common_5.7.27-0ubuntu0.16.04.1_all.deb ...
+Unpacking mysql-common (5.7.27-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libmysqlclient20:amd64.
+Preparing to unpack .../libmysqlclient20_5.7.27-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking libmysqlclient20:amd64 (5.7.27-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libpython2.7-minimal:amd64.
+Preparing to unpack .../libpython2.7-minimal_2.7.12-1ubuntu0~16.04.4_amd64.deb ...
+Unpacking libpython2.7-minimal:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Selecting previously unselected package libpython2.7-stdlib:amd64.
+Preparing to unpack .../libpython2.7-stdlib_2.7.12-1ubuntu0~16.04.4_amd64.deb ...
+Unpacking libpython2.7-stdlib:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Selecting previously unselected package libpython2.7:amd64.
+Preparing to unpack .../libpython2.7_2.7.12-1ubuntu0~16.04.4_amd64.deb ...
+Unpacking libpython2.7:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Selecting previously unselected package libmailutils4:amd64.
+Preparing to unpack .../libmailutils4_1%3a2.99.99-1ubuntu2_amd64.deb ...
+Unpacking libmailutils4:amd64 (1:2.99.99-1ubuntu2) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../ssl-cert_1.0.37_all.deb ...
+Unpacking ssl-cert (1.0.37) ...
+Selecting previously unselected package postfix.
+Preparing to unpack .../postfix_3.1.0-3ubuntu0.3_amd64.deb ...
+Unpacking postfix (3.1.0-3ubuntu0.3) ...
+Selecting previously unselected package mailutils.
+Preparing to unpack .../mailutils_1%3a2.99.99-1ubuntu2_amd64.deb ...
+Unpacking mailutils (1:2.99.99-1ubuntu2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu7) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu16) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Setting up libntlm0:amd64 (1.4-7) ...
+Setting up libunistring0:amd64 (0.9.3-5.2ubuntu1) ...
+Setting up ca-certificates (20170717~16.04.2) ...
+Setting up libsasl2-modules-db:amd64 (2.1.26.dfsg1-14ubuntu0.1) ...
+Setting up libsasl2-2:amd64 (2.1.26.dfsg1-14ubuntu0.1) ...
+Setting up libsasl2-modules:amd64 (2.1.26.dfsg1-14ubuntu0.1) ...
+Setting up libgc1c2:amd64 (1:7.4.2-7.3ubuntu0.1) ...
+Setting up libltdl7:amd64 (2.4.6-0.1) ...
+Setting up guile-2.0-libs:amd64 (2.0.11+1-10ubuntu0.1) ...
+Setting up libgsasl7 (1.8.0-8ubuntu2) ...
+Setting up libkyotocabinet16v5:amd64 (1.2.76-4.1) ...
+Setting up mailutils-common (1:2.99.99-1ubuntu2) ...
+Setting up mysql-common (5.7.27-0ubuntu0.16.04.1) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Setting up libmysqlclient20:amd64 (5.7.27-0ubuntu0.16.04.1) ...
+Setting up libpython2.7-minimal:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Setting up libpython2.7-stdlib:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Setting up libpython2.7:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Setting up libmailutils4:amd64 (1:2.99.99-1ubuntu2) ...
+Setting up ssl-cert (1.0.37) ...
+Setting up postfix (3.1.0-3ubuntu0.3) ...
+Adding group `postfix' (GID 117) ...
+Done.
+Adding system user `postfix' (UID 112) ...
+Adding new user `postfix' (UID 112) with group `postfix' ...
+Not creating home directory `/var/spool/postfix'.
+Creating /etc/postfix/dynamicmaps.cf
+Adding group `postdrop' (GID 118) ...
+Done.
+setting myhostname: DESKTOP-5C3EOJ3.localdomain
+setting alias maps
+setting alias database
+changing /etc/mailname to mail.example.com
+setting myorigin
+setting destinations: $myhostname, mail.example.com, DESKTOP-5C3EOJ3.localdomain, localhost.localdomain, localhost
+setting relayhost:
+setting mynetworks: 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+setting mailbox_size_limit: 0
+setting recipient_delimiter: +
+setting inet_interfaces: all
+setting inet_protocols: ipv4
+/etc/aliases does not exist, creating it.
+WARNING: /etc/aliases exists, but does not have a root alias.
+
+Postfix is now set up with a default configuration.  If you need to make
+changes, edit
+/etc/postfix/main.cf (and others) as needed.  To view Postfix configuration
+values, see postconf(1).
+
+After modifying main.cf, be sure to run '/etc/init.d/postfix reload'.
+
+Running newaliases
+invoke-rc.d: could not determine current runlevel
+Setting up mailutils (1:2.99.99-1ubuntu2) ...
+update-alternatives: using /usr/bin/frm.mailutils to provide /usr/bin/frm (frm) in auto mode
+update-alternatives: using /usr/bin/from.mailutils to provide /usr/bin/from (from) in auto mode
+update-alternatives: using /usr/bin/messages.mailutils to provide /usr/bin/messages (messages) in auto mode
+update-alternatives: using /usr/bin/movemail.mailutils to provide /usr/bin/movemail (movemail) in auto mode
+update-alternatives: using /usr/bin/readmsg.mailutils to provide /usr/bin/readmsg (readmsg) in auto mode
+update-alternatives: using /usr/bin/dotlock.mailutils to provide /usr/bin/dotlock (dotlock) in auto mode
+update-alternatives: using /usr/bin/mail.mailutils to provide /usr/bin/mailx (mailx) in auto mode
+Processing triggers for libc-bin (2.23-0ubuntu7) ...
+Processing triggers for ca-certificates (20170717~16.04.2) ...
+Updating certificates in /etc/ssl/certs...
+17 added, 42 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Processing triggers for systemd (229-4ubuntu16) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+user@DESKTOP-5C3EOJ3:~$ vim /etc/postfix/main.cf
+
+[No write since last change]
+/bin/bash: wq: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+user@DESKTOP-5C3EOJ3:~$ chmod vim /etc/postfix/sasl_passwd
+chmod: invalid mode: ‘vim’
+Try 'chmod --help' for more information.
+user@DESKTOP-5C3EOJ3:~$ vim /etc/postfix/sasl_passwd
+user@DESKTOP-5C3EOJ3:~$ sudo chmod 400 /etc/postfix/sasl_passwd
+chmod: cannot access '/etc/postfix/sasl_passwd': No such file or directory
+user@DESKTOP-5C3EOJ3:~$ sudo vim /etc/postfix/main.cf
+user@DESKTOP-5C3EOJ3:~$ sudo vim /etc/postfix/sasl_passwd
+user@DESKTOP-5C3EOJ3:~$ sudo chmod 400 /etc/postfix/sasl_passwd
+user@DESKTOP-5C3EOJ3:~$ sudo postmap /etc/postfix/sasl_passwd
+postmap: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+user@DESKTOP-5C3EOJ3:~$ cat /etc/ssl/certs/Thawte_Premium_Server_CA.pem | sudo tee -a /etc/postfix/cacert.pem
+cat: /etc/ssl/certs/Thawte_Premium_Server_CA.pem: No such file or directory
+user@DESKTOP-5C3EOJ3:~$ cat /etc/ssl/certs/thawte_Primary_Root_CA.pem | sudo tee -a /etc/postfix/cacert.pem
+-----BEGIN CERTIFICATE-----
+MIIEIDCCAwigAwIBAgIQNE7VVyDV7exJ9C/ON9srbTANBgkqhkiG9w0BAQUFADCB
+qTELMAkGA1UEBhMCVVMxFTATBgNVBAoTDHRoYXd0ZSwgSW5jLjEoMCYGA1UECxMf
+Q2VydGlmaWNhdGlvbiBTZXJ2aWNlcyBEaXZpc2lvbjE4MDYGA1UECxMvKGMpIDIw
+MDYgdGhhd3RlLCBJbmMuIC0gRm9yIGF1dGhvcml6ZWQgdXNlIG9ubHkxHzAdBgNV
+BAMTFnRoYXd0ZSBQcmltYXJ5IFJvb3QgQ0EwHhcNMDYxMTE3MDAwMDAwWhcNMzYw
+NzE2MjM1OTU5WjCBqTELMAkGA1UEBhMCVVMxFTATBgNVBAoTDHRoYXd0ZSwgSW5j
+LjEoMCYGA1UECxMfQ2VydGlmaWNhdGlvbiBTZXJ2aWNlcyBEaXZpc2lvbjE4MDYG
+A1UECxMvKGMpIDIwMDYgdGhhd3RlLCBJbmMuIC0gRm9yIGF1dGhvcml6ZWQgdXNl
+IG9ubHkxHzAdBgNVBAMTFnRoYXd0ZSBQcmltYXJ5IFJvb3QgQ0EwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsoPD7gFnUnMekz52hWXMJEEUMDSxuaPFs
+W0hoSVk3/AszGcJ3f8wQLZU0HObrTQmnHNK4yZc2AreJ1CRfBsDMRJSUjQJib+ta
+3RGNKJpchJAQeg29dGYvajig4tVUROsdB58Hum/u6f1OCyn1PoSgAfGcq/gcfomk
+6KHYcWUNo1F77rzSImANuVud37r8UVsLr5iy6S7pBOhih94ryNdOwUxkHt3Ph1i6
+Sk/KaAcdHJ1KxtUvkcx8cXIcxcBn6zL9yZJclNqFwJu/U30rCfSMnZEfl2pSy94J
+NqR32HuHUETVPm4pafs5SSYeCaWAe0At6+gnhcn+Yf1+5nyXHdWdAgMBAAGjQjBA
+MA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBR7W0XP
+r87Lev0xkhpqtvNG61dIUDANBgkqhkiG9w0BAQUFAAOCAQEAeRHAS7ORtvzw6WfU
+DW5FvlXok9LOAz/t2iWwHVfLHjp2oEzsUHboZHIMpKnxuIvW1oeEuzLlQRHAd9mz
+YJ3rG9XRbkREqaYB7FViHXe4XI5ISXycO1cRrK1zN44veFyQaEfZYGDm/Ac9IiAX
+xPcW6cTYcvnIc3zfFi8VqT79aie2oetaupgf1eNNZAqdE8hhuvU5HIe6uL17In/2
+/qxAeeWsEG89jxt5dovEN7MhGITlNgDrYyCZuen+MwS7QcjBAvlEYyCegc5C09Y/
+LHbTY5xZ3Y+m4Q6gLkH3LpVHz7z9M/P2C2F+fpErgUfCJzDupxBdN49cOSvkBPB7
+jVaMaA==
+-----END CERTIFICATE-----
+user@DESKTOP-5C3EOJ3:~$ sudo /etc/init.d/postfix reload
+ * Reloading Postfix configuration...                                                                                                                                   postfix: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postfix: Postfix is running with backwards-compatible default settings
+postfix: See http://www.postfix.org/COMPATIBILITY_README.html for details
+postfix: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postfix/postlog: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postfix/postfix-script: fatal: the Postfix mail system is not running
+                                                                                                                                                                 [fail]
+user@DESKTOP-5C3EOJ3:~$ sudo /etc/init.d/postfix restart
+ * Stopping Postfix Mail Transport Agent postfix                                                                                                                        postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+                                                                                                                                                                 [ OK ]
+ * Starting Postfix Mail Transport Agent postfix                                                                                                                        postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postmulti: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postfix: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postfix: Postfix is running with backwards-compatible default settings
+postfix: See http://www.postfix.org/COMPATIBILITY_README.html for details
+postfix: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+                                                                                                                                                                 [ OK ]
+user@DESKTOP-5C3EOJ3:~$ sudo /etc/init.d/postfix reload
+ * Reloading Postfix configuration...                                                                                                                                   postfix: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postfix: Postfix is running with backwards-compatible default settings
+postfix: See http://www.postfix.org/COMPATIBILITY_README.html for details
+postfix: To disable backwards compatibility use "postconf compatibility_level=2" and "postfix reload"
+/usr/sbin/postconf: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postsuper: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+postsuper: warning: /etc/postfix/main.cf, line 42: overriding earlier entry: relayhost=
+                                                                                                                                                                 [ OK ]
+user@DESKTOP-5C3EOJ3:~$ echo "Test mail from postfix" | mail -s "Test Postfix" lingamalla.sandhya@gmail.com
+user@DESKTOP-5C3EOJ3:~$
